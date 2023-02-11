@@ -50,6 +50,8 @@ def clean_data(df):
     # remove duplicates
     df.drop_duplicates(inplace=True)
 
+    df['related'] = df['related'].map(lambda x: 1 if x == 2 else x)
+
     return df
 
 
