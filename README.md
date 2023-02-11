@@ -32,6 +32,9 @@ Additionally, plotly visualisations are included.
 
 ### Instructions:
 
+The project originally used SQLAlchemy. This caused some difficulties which led to using the `sqlite3` library instead.
+The details can be found in the `requirements.txt` file.
+
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
